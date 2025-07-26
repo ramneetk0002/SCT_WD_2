@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advanced Calculator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" >
+</head>
+<body class="dark-mode">
+  <div class="calculator">
+    <div class="header">
+      <button class="theme-toggle">
+        <span class="theme-icon">🌙</span> Dark
+      </button>
+      <button class="copy-btn">Copy Result</button>
+    </div>
+    
+    <button class="history-toggle">📜</button>
+    
+    <div class="history-panel">
+      <div class="history-title">Calculation History</div>
+      <div class="history-list" id="history-list"></div>
+    </div>
+    
+    <div class="display">
+      <div class="previous-operand" id="previous-operand"></div>
+      <div class="current-operand" id="current-operand">0</div>
+    </div>
+    
+    <div class="buttons">
+      <button class="clear span-2">AC</button>
+      <button class="delete">DEL</button>
+      <button class="operator">÷</button>
+      <button class="scientific">x²</button>
+      
+      <button>7</button>
+      <button>8</button>
+      <button>9</button>
+      <button class="operator">×</button>
+      <button class="scientific">√</button>
+      
+      <button>4</button>
+      <button>5</button>
+      <button>6</button>
+      <button class="operator">-</button>
+      <button class="scientific">%</button>
+      
+      <button>1</button>
+      <button>2</button>
+      <button>3</button>
+      <button class="operator">+</button>
+      <button class="scientific">1/x</button>
+      
+      <button class="span-2">0</button>
+      <button>.</button>
+      <button class="equals">=</button>
+      <button class="scientific">±</button>
+    </div>
+  </div>
+  
+  <div class="notification" id="notification">Copied to clipboard!</div>
+
+  <audio id="clickSound" src="https://assets.mixkit.co/sfx/preview/mixkit-modern-click-box-check-1120.mp3"></audio>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
