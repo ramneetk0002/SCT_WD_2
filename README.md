@@ -31,5 +31,5 @@ It’s a great resource for beginners and intermediate developers looking to str
 
 ## 🔗 Live Demo
 
-👉 [Click here to use the calculator](#)
+👉 [Click here to use the calculator] : https://ramneetk0002.github.io/SCT_WD_2
 
